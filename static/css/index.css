@@ -1,0 +1,11 @@
+.navbar{
+    font-size: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-bottom: 10px solid black;
+}
+body{
+    background-image:url( "../img/images\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

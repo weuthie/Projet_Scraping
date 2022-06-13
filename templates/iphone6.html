@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/iphone.css">
+    <title>Iphone6</title>
+</head>
+<body>
+    <a href="/">clique ici pour revenir a la page d'accuille</a>
+    <h1>Hello Iphone 6</h1>
+    
+    <div class="contener">
+        
+        <div class="limarket">
+            <h1>Limarket</h1>
+            {% for produit in limarke %}
+            <div class="vale">
+            <!-- <img src="{{produit.li_image}}" alt=""> -->
+            <p>{{produit.li_name}}</p>
+            <p>{{produit.li_prix}}</p>
+            </div>
+            {% endfor %}
+        </div>
+        
+        <div class="jiji">
+            <h1>Allo</h1>
+            {% for produit in jiji %}
+            <div class="vale">
+            <p>{{produit.ji_name}}</p>
+            <p>{{produit.ji_prix}}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="soumary">
+            <h1>Soumary</h1>
+            {% for produit in soumari %}
+            <div class="vale">
+            <p>{{produit.soumary_name}}</p>
+            <p>{{produit.soumary_prix}}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+</body>
+</html>

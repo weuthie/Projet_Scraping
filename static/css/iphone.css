@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(50deg,#929bd76a,transparent);
+}
+.contener{
+    margin: auto;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.limarket{
+    width: 30%;
+    margin: auto;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.jiji{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:blue;
+}
+.soumary{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:aqua;
+}
+h1{
+    text-align: center;
+}
+.vale{
+    margin: 10px;
+    background-color: azure;
+}
