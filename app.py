@@ -3,6 +3,8 @@ from sqlalchemy import false
 from createdb import db
 from requete import Recu_info
 
+#Hello
+
 scrap = Flask(__name__)
 scrap.config['SECRET_KEY'] = 'groupe4'
 scrap.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://groupe4:test123@localhost/scraping'
